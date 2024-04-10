@@ -50,11 +50,11 @@ def arredondar(valor, casas_decimais=6):
     """
     return round(valor, casas_decimais)
 
-#Função
+# Função escolhida
 def funcao(x):
     return x**2 + x 
 
-x_valores = [-3, -2, -1, -1.5, -0.5, 1, 2]  #Pontos onde queremos calcular as raízes
+x_valores = [-3, -2, -1, -1.5, -0.5, 1, 2]  # Pontos onde queremos calcular as raízes
 for x_valor in x_valores:
     derivada_valor = derivada(funcao, x_valor)
     raizes = newton(funcao, x_valor)
