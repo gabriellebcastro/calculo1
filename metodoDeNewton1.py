@@ -12,7 +12,7 @@ def derivada(f, x, h=1e-5):
     """
     return (f(x + h) - f(x)) / h
 
-def newton(f, x0, h=1e-5, max_iteracoes=100):
+def newton(f, x0, h=1e-5, max_iteracoes=1000):
     """
     Implementa o método de Newton para encontrar as raízes de uma função.
     
