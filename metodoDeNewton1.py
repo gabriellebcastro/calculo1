@@ -56,6 +56,6 @@ def funcao(x):
 
 x_valores = [-3, -2, -1, -1.5, -0.5, 1, 2]  #Pontos onde queremos calcular as raízes
 for x_valor in x_valores:
-    derivative_value = derivada(funcao, x_valor)
+    derivada_valor = derivada(funcao, x_valor)
     raizes = newton(funcao, x_valor)
-    print("Para x0 =", x_valor, "o resultado da derivada é", {arredondar(derivative_value)}, "e a raiz da função é:", {arredondar(raizes)})
+    print("Para x0 =", x_valor, "o resultado da derivada é", {arredondar(derivada_valor)}, "e a raiz da função é:", {arredondar(raizes)})
