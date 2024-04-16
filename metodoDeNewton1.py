@@ -50,10 +50,13 @@ def arredondar(valor, casas_decimais=6):
     """
     return round(valor, casas_decimais)
 
-# Função escolhida
+'''Funções
+Para testar cada função, apenas retire o '#' do retorno da função desejada.
+Apenas um 'return' deve ficar ativo.
+'''
 def funcao(x):
     '''Função Quadrática (do exemplo)'''
-    return x**2 + x 
+    #return x**2 + x 
 
     '''Desafio do Raimundo'''
     #return x**2-2*x
@@ -64,10 +67,10 @@ def funcao(x):
     tenha raízes reais e estão com constantes para 
     evitar derivadas nulas.'''
     #return 2**x - 1
-    #return 0.5**x - 1
-    #return 3**x - 1
+    #return 3**x - 2
+    #return 2**x-3
 
-x_valores = [-3, -2, -1, -1.5, -0.5, 1, 2]  # Pontos onde queremos calcular as raízes
+x_valores = [-2, -1, -1.5, -0.5, 1, 2]  # Pontos onde queremos calcular as raízes
 #x_valores = [1]
 for x_valor in x_valores:
     derivada_valor = derivada(funcao, x_valor)
