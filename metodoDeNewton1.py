@@ -52,9 +52,23 @@ def arredondar(valor, casas_decimais=6):
 
 # Função escolhida
 def funcao(x):
+    '''Função Quadrática (do exemplo)'''
     return x**2 + x 
 
+    '''Desafio do Raimundo'''
+    #return x**2-2*x
+    
+    '''Função Exponencial
+
+    Para a função exponencial, escolhemos funções que
+    tenha raízes reais e estão com constantes para 
+    evitar derivadas nulas.'''
+    #return 2**x - 1
+    #return 0.5**x - 1
+    #return 3**x - 1
+
 x_valores = [-3, -2, -1, -1.5, -0.5, 1, 2]  # Pontos onde queremos calcular as raízes
+#x_valores = [1]
 for x_valor in x_valores:
     derivada_valor = derivada(funcao, x_valor)
     raizes = newton(funcao, x_valor)
