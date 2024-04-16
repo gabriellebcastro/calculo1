@@ -59,7 +59,7 @@ def funcao(x):
     #return x**2 + x 
 
     '''Desafio do Raimundo'''
-    return x**2-2*2
+    return x**2-2**2
     
     '''Função Exponencial
 
